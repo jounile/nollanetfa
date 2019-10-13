@@ -1,0 +1,18 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */1 * * * *"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "suplascraper/output/{name}",
+      "connection": "DefaultEndpointsProtocol=https;AccountName=suplascraper;AccountKey=2iD64r7bYpD7NqzDdxvTxvG03PslDDzm7xdKarCQmKd/esoGmxjS5KK8SMWEaGyTw5Y6DclQHqTIGxhQJJqS6A==;EndpointSuffix=core.windows.net"
+    }
+  ]
+}

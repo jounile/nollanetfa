@@ -1,4 +1,1 @@
-logging
-urllib3==1.22
-json
-AdvancedHTMLParser
+azure-functions

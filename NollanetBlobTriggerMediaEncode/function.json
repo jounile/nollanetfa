@@ -6,7 +6,7 @@
       "type": "blobTrigger",
       "direction": "in",
       "path": "videos/{name}",
-      "connection": "storageaccountnollaad90_STORAGE"
+      "connection": "NOLLANET_STORAGE_ACCOUNT"
     }
   ]
 }
